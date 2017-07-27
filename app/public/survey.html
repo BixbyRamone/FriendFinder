@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="../../server.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<h1>
+			Survey Questions
+		</h1>
+
+		<h2>About You</h2>
+
+		<div>
+			<div>Name(required)</div>
+			<input id="nameID" type="text" name="">
+		</div>
+
+		<div>
+			<div>Link to photo image(required)</div>
+			<input id="imageID" type="text" name="">
+		</div>
+		<br>
+		<br>
+
+		
+		<ul>
+			<li>
+				<div>Question 1</div>
+				<div>Your mind is always buzzing with unexplored ideas and plans.</div>
+				<select id="list1" class="surveyQuest">
+					<option value="1">Strongly Disagree</option>
+					<option value="2">Disagree</option>
+					<option value="3">Neutral</option>
+					<option value="4">Agree</option>
+					<option value="5">Strongly Agree</option>
+				</select>
+			</li>		
+			<br>			
+			<li>
+				<div>Question 2</div>
+				<div>Generally speaking, you rely more on your experience than your imagination.</div>
+				<select id="list2" class="surveyQuest">
+					<option value="1">Strongly Disagree</option>
+					<option value="2">Disagree</option>
+					<option value="3">Neutral</option>
+					<option value="4">Agree</option>
+					<option value="5">Strongly Agree</option>
+				</select>
+			</li>
+			<br>
+			<li>
+				<div>Question 3</div>
+				<div>You find it easy to stay relaxed and focused even when there is some pressure.</div>
+				<select id="list3" class="surveyQuest">
+					<option value="1">Strongly Disagree</option>
+					<option value="2">Disagree</option>
+					<option value="3">Neutral</option>
+					<option value="4">Agree</option>
+					<option value="5">Strongly Agree</option>
+				</select>
+			</li>
+			<br>
+			<li>
+				<div>Question 4</div>
+				<div>You rarely do something just out of sheer curiosity.</div>
+				<select id="list4" class="surveyQuest">
+					<option value="1">Strongly Disagree</option>
+					<option value="2">Disagree</option>
+					<option value="3">Neutral</option>
+					<option value="4">Agree</option>
+					<option value="5">Strongly Agree</option>
+				</select>
+			</li>
+			<br>
+			<li>
+				<div>Question 5</div>
+				<div>People can rarely upset you.</div>
+				<select id="list5" class="surveyQuest">
+					<option value="1">Strongly Disagree</option>
+					<option value="2">Disagree</option>
+					<option value="3">Neutral</option>
+					<option value="4">Agree</option>
+					<option value="5">Strongly Agree</option>
+				</select>
+			</li>
+			<br>
+			<li>
+				<div>Question 6</div>
+				<div>It is often difficult for you to relate to other people’s feelings.</div>
+				<select id="list6" class="surveyQuest">
+					<option value="1">Strongly Disagree</option>
+					<option value="2">Disagree</option>
+					<option value="3">Neutral</option>
+					<option value="4">Agree</option>
+					<option value="5">Strongly Agree</option>
+				</select>
+			</li>
+			<br>
+			<li>
+				<div>Question 7</div>
+				<div>In a discussion, truth should be more important than people’s sensitivities.</div>
+				<select id="list7" class="surveyQuest">
+					<option value="1">Strongly Disagree</option>
+					<option value="2">Disagree</option>
+					<option value="3">Neutral</option>
+					<option value="4">Agree</option>
+					<option value="5">Strongly Agree</option>
+				</select>
+			</li>
+			<li>
+				<div>Question 8</div>
+				<div>You rarely get carried away by fantasies and ideas.</div>
+				<select id="list8" class="surveyQuest">
+					<option value="1">Strongly Disagree</option>
+					<option value="2">Disagree</option>
+					<option value="3">Neutral</option>
+					<option value="4">Agree</option>
+					<option value="5">Strongly Agree</option>
+				</select>
+			</li>
+			<br>
+			<li>
+				<div>Question 9</div>
+				<div>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</div>
+				<select id="list9" class="surveyQuest">
+					<option value="1">Strongly Disagree</option>
+					<option value="2">Disagree</option>
+					<option value="3">Neutral</option>
+					<option value="4">Agree</option>
+					<option value="5">Strongly Agree</option>
+				</select>
+			</li>
+			<br>
+			<li>
+				<div>Question 10</div>
+				<div>You feel more energetic after spending time with a group of people.</div>
+				<select id="list10" class="surveyQuest">
+					<option value="1">Strongly Disagree</option>
+					<option value="2">Disagree</option>
+					<option value="3">Neutral</option>
+					<option value="4">Agree</option>
+					<option value="5">Strongly Agree</option>
+				</select>
+			</li>
+			<br>
+						
+              <button type="submit" class="submit btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-fire"></span> Submit</button>
+
+              <button type="submit" class="match btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-fire"></span> View Match</button>
+
+              <a href="/"><button type="submit" class="home btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-fire"></span> Home</button></a>
+            
+
+		</ul>
+		
+	</div>
+
+	<script type="text/javascript">
+
+	let friendArray = [];
+  
+   $('.submit').on('click', function(event){
+   	event.preventDefault();
+
+   	var name = document.getElementById('nameID').value;
+   	var imageURL= document.getElementById('imageID').value;
+
+
+   		console.log(name);
+   		console.log(imageURL);
+
+
+   		$('.surveyQuest').each(function(){ 
+
+
+
+   			friendArray.push($(this).val());
+   			
+   		})
+
+   		var newFriend = {
+   			name: name,
+   			image: imageURL,
+   			surveyRes: friendArray   		
+   	}
+
+   	console.log(newFriend);
+
+   	function getData() {
+	  return $.ajax({
+	  url : 'api/friends',
+	  type: 'POST',
+	  data: newFriend
+	  });
+	}
+
+	function handleData(data) {
+	  alert(data);
+	  //do some stuff
+	}
+
+	getData().done(handleData);
+
+	friendArray = [];
+
+ 
+
+
+ function dataSaved(data) {
+ 	console.log("Thanks for taking the survey!");
+ 	console.log(data);
+ }   	
+
+});
+
+    $('.match').on('click', function(event){
+
+    	    $.get("/api/friends", function(data) {
+        console.log(data);	
+    });
+
+    	// $.ajax({
+    	// 	url:"api/friends",
+    	// 	type: 'GET',
+    	// 	data: allFriends
+    	// }).done( console.log(data));
+    	
+        });
+
+    
+
+
+		
+
+    </script>
+
+</body>
+</html>
